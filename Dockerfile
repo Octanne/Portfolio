@@ -5,3 +5,5 @@ WORKDIR /var/www/html
 COPY ./public /var/www/html
 
 COPY Caddyfile /etc/caddy/Caddyfile
+
+EXPOSE 80
